@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.helpdesk.testing.testLogin
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 28.711 s <<< FAILURE! - in com.helpdesk.testing.testLogin
+com.helpdesk.testing.testLogin.CambioContraseña  Time elapsed: 0.954 s  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+invalid selector: Unable to locate an element with the xpath expression Cambiar Contraseña because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'Cambiar Contraseña' is not a valid XPath expression.
+  (Session info: chrome=96.0.4664.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'CHRIS-DESKTOP', ip: '192.168.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\khriz\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54087}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3e8ebcafcfa9f40c1a9c38caf169a76f
+*** Element info: {Using=xpath, value=Cambiar Contraseña}
+	at com.helpdesk.testing.testLogin.CambioContraseña(testLogin.java:171)
+

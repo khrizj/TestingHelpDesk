@@ -1,0 +1,4 @@
+com\helpdesk\testing\testCrearTiquete.class
+com\helpdesk\testing\crearEliminarUsuarios.class
+com\helpdesk\testing\crearComentarios.class
+com\helpdesk\testing\testLogin.class
